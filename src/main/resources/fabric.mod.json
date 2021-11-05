@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "exlusive-pi-chart",
+  "version": "${version}",
+  "name": "Exclusive Pi Chart",
+  "description": "Removes everything from the f3 menu with an open pi chart.",
+  "authors": [
+    "DuncanRuns"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/exlusive-pi-chart/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.duncanruns.excpi.ExcPi"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "exlusive-pi-chart.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.0"
+  }
+}

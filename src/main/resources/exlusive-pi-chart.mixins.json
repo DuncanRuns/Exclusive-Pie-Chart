@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "me.duncanruns.excpi.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "DebugHudMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
