@@ -1,4 +1,4 @@
-package me.duncanruns.excpi;
+package me.duncanruns.excpie;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -6,17 +6,16 @@ import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class ExcPi implements ModInitializer {
+public class ExcPie implements ModInitializer {
 
     public static Logger LOGGER = LogManager.getLogger();
 
-    public static final String MOD_ID = "exlusive-pi-chart";
-    public static final String MOD_NAME = "Exclusive Pi Chart";
+    public static final String MOD_ID = "exlusive-pie-chart";
+    public static final String MOD_NAME = "Exclusive Pie Chart";
 
     @Override
     public void onInitialize() {
         log(Level.INFO, "Initializing");
-        //TODO: Initializer
     }
 
     public static void log(Level level, String message){

@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "me.duncanruns.excpi.mixin",
+  "package": "me.duncanruns.excpie.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "DebugHudMixin"

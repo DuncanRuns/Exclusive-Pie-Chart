@@ -1,4 +1,4 @@
-package me.duncanruns.excpi.mixin;
+package me.duncanruns.excpie.mixin;
 
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.DrawableHelper;
